@@ -35,7 +35,7 @@ myProfile = {
 }
 
 helpMessage ="""╔════════════════════ 
-║┈✇✇  sɪʟᴇɴᴛ ᴛᴇᴀᴍ ʙᴏᴛ V'selfbot✇ ✇┈
+║┈✇✇ HeNdRa_BiXaS Bot ✇ ✇┈
 ╠════════════════════
 ╠⍟➣  ᴍʏ ɪᴅ
 ╠⍟➣  ᴍᴇ
@@ -177,8 +177,8 @@ helpMessage ="""╔════════════════════
 ╠═══════════════════
 ║ SILENT TΣΔM βΩT
 ╠═══════════════════
-╠⍟➣line://ti/p/~teambotprotect
-╠⍟➣line://ti/p/~dhenz415
+╠⍟➣ HeNdRa_BiXaS Bot
+╠⍟➣line://ti/p/~h220514n
 ╚═══════════════════
 """
 
@@ -227,9 +227,9 @@ Dhenza = {
     "comment":"╔═════════════════════\nAuto like by:TBP\n╚══════════════════════",
     "cctvteks":"Masuk sayang\nUdah keciduk juga",
     "message":"Cieee kepo @!\n╔═════════════════════\nᵀᴴᴬᴺᴷˢ ᶠᴼᴿ ᴬᴰᴰ ᴹᴱ\n╚══════════════════════",
-    "welmsg":"╔═════════════════════\nSILENT TΣΔM βΩT\n╚══════════════════════",
-    "leftmsg":"╔═════════════════════\nSILENT TΣΔM βΩT\n╚══════════════════════",
-    "tagteks1":"Tag mau minta jajan ya",
+    "welmsg":"╔═════════════════════\nHeNdRa_BiXaS Bot\n╚══════════════════════",
+    "leftmsg":"╔═════════════════════\nHeNdRa_BiXaS Bot\n╚══════════════════════",
+    "tagteks1":"Tag mau minta jajan ya"
     "tagteks2":"iya syang",
     "tagteks3":"kangen ya//-.."
 	}
@@ -1064,7 +1064,7 @@ def dhenzaBot(op):
                             grup = dz.getGroup(i)
                             M.to = grup.id
                             M.contentType = 13
-                            M.contentMetadata = {'mid': "ub1c5a71f27b863896e9d44bea857d35b"}
+                            M.contentMetadata = {'mid': "u96059f53598f1f4bb8fd512b7ca513ef"}
                 dz.sendMessage(M)
                 dz.sendMessage(msg.to,"「sᴀɴntᴇᴛ ᴛᴇʀᴋɪʀɪᴍ ʙᴏss」")
             elif msg.text in ["Santet"]:
@@ -1425,7 +1425,7 @@ def dhenzaBot(op):
                     dz.sendMessage(i,"ɢᴇᴛ ɢʀᴏᴜᴘ ᴅᴏɴᴇ")
                     dz.sendMessage(i,"ɢᴇᴛ ᴍᴇᴍʙᴇʀ ᴅᴏɴᴇ")
                     dz.sendMessage(i,"sɪᴅᴇʀ sᴇᴛ ᴛᴏ ᴏɴ")
-                    dz.sendMessage(i,"ᴀᴜᴛᴏ sɪᴅᴇʀ ʙʏ: dhenza")
+                    dz.sendMessage(i,"ᴀᴜᴛᴏ sɪᴅᴇʀ ʙʏ: HeNdRa_BiXaS")
                     pro["prosider"][i] = True
                     with open('pro.json', 'w') as fp:
                         json.dump(pro, fp, sort_keys=True, indent=4)
@@ -1449,7 +1449,7 @@ def dhenzaBot(op):
                   if h == ng:
                         dz.sendMessage(i,"ᴄʟᴇᴀʀ ᴍᴇᴍʙᴇʀ ᴅᴏɴᴇ")
                         dz.sendMessage(i,"sɪᴅᴇʀ sᴇᴛ ᴏғғ")
-                        dz.sendMessage(i,"ᴀᴜᴛᴏ sɪᴅᴇʀ ʙʏ: dhenza")
+                        dz.sendMessage(i,"ᴀᴜᴛᴏ sɪᴅᴇʀ ʙʏ: HeNdRa_BiXaS")
                         del pro["prosider"][i]
                         with open('pro.json', 'w') as fp:
                             json.dump(pro, fp, sort_keys=True, indent=4)
@@ -1538,7 +1538,7 @@ def dhenzaBot(op):
                     json.dump(pro, fp, sort_keys=True, indent=4)
                 dz.sendMessage(msg.to,"ᴀʟʟ sᴇᴛ ᴄʟᴇᴀʀ")
             elif msg.text in ["Set"]:
-                md = "╔════════════════════\n╠➣SILENT TΣΔM βΩT\n╠════════════════════\n"
+                md = "╔════════════════════\n╠➣HeNdRa_BiXaS BoT\n╠════════════════════\n"
                 if msg.to in pro["intaPoint"]: md+="╠➣ᴀᴜᴛᴏ ɪɴ : ✔\n"
                 else: md +="╠➣ᴀᴜᴛᴏ ɪɴ : ❌\n"
 				
@@ -1554,8 +1554,8 @@ def dhenzaBot(op):
                 if msg.to in pro["Protectinvite"]: md+="╠➣ᴘʀᴏᴛᴇᴄᴛ ɪɴᴠ : ✔\n"
                 else: md+= "╠➣ᴘʀᴏᴛᴇᴄᴛ ɪɴᴠ : ❌\n"
 				
-                if msg.to in pro["Autokick"]: md+="╠➣ᴀᴜᴛᴏ ᴋɪᴄᴋ : ✔\n╠════════════════════\n╠➣line://ti/p/~dhenz415\n╠➣line://ti/p/~tambotprotect\n╚════════════════════"
-                else:md+="╠➣ᴀᴜᴛᴏ ᴋɪᴄᴋ : ❌\n╠════════════════════\n╠➣line://ti/p/~dhenz415\n╠➣line://ti/p/~teambotprotect\n╚════════════════════"
+                if msg.to in pro["Autokick"]: md+="╠➣ᴀᴜᴛᴏ ᴋɪᴄᴋ : ✔\n╠════════════════════\n╠➣line://ti/p/~h220514n\n╠➣line://ti/p/~h220514n\n╚════════════════════"
+                else:md+="╠➣ᴀᴜᴛᴏ ᴋɪᴄᴋ : ❌\n╠════════════════════\n╠➣line://ti/p/~h220514n\n╠➣line://ti/p/~h220514n\n╚════════════════════"
 				
                 dz.sendMessage(msg.to,md)
             elif msg.text in ["Add off"]:
@@ -1572,7 +1572,7 @@ def dhenzaBot(op):
                     json.dump(wait, fp, sort_keys=True, indent=4)
                 dz.sendMessage(msg.to,"ᴀʟʟ ᴀᴅᴅ ᴄʟᴇᴀʀ")
             elif msg.text in ["Add status"]:
-                md = "╔════════════════════\n╠SILENT TΣΔM βΩT\n╠════════════════════\n"
+                md = "╔════════════════════\n╠HeNdRa_BiXaS BoT\n╠════════════════════\n"
                 if wait["Invi"] == True: md+="╠➣Invite : ✔\n"
                 else:md+="╠➣Invite : ❌\n"
                 if wait["atarget"] == True: md+="╠➣ᴀᴅᴅ ʙᴀɴɴᴇᴅ : ✔\n"
@@ -1587,11 +1587,11 @@ def dhenzaBot(op):
                 else:md+="╠➣add friend : ❌\n"
                 if wait["dfriend"] == True: md+="╠➣ᴅᴇʟ ғʀɪᴇɴᴅ : ✔\n"
                 else:md+="╠➣ᴅᴇʟ ғʀɪᴇɴᴅ : ❌\n"
-                if wait["getmid"] == True: md+="╠➣ɢᴇᴛ ᴍɪᴅ : ✔\n╠════════════════════\n╠➣line://ti/p/~teambotprotect\n╠➣line://ti/p/~dhenz415\n╚════════════════════"
-                else:md+="╠➣ɢᴇᴛ ᴍɪᴅ : ❌\n╠════════════════════\n╠➣line://ti/p/~dhenz415\n╠➣line://ti/p/~teambotprotect\n╚════════════════════"
+                if wait["getmid"] == True: md+="╠➣ɢᴇᴛ ᴍɪᴅ : ✔\n╠════════════════════\n╠➣line://ti/p/~h220514n\n╠➣line://ti/p/~h220514n\n╚════════════════════"
+                else:md+="╠➣ɢᴇᴛ ᴍɪᴅ : ❌\n╠════════════════════\n╠➣line://ti/p/~h220514n\n╠➣line://ti/p/~h220514n\n╚════════════════════"
                 dz.sendMessage(msg.to,md)
             elif msg.text in ["Status"]:
-                md = "╔════════════════════\n╠SILENT TΣΔM βΩT\n╠════════════════════\n"
+                md = "╔════════════════════\n╠HeNdRa_BiXaS BoT\n╠════════════════════\n"
                 if wait["Autojoin"] == True: md+="╠➣ᴀᴜᴛᴏᴊᴏɪɴ : ✔\n"
                 else:md+="╠➣ᴀᴜᴛᴏᴊᴏɪɴ : ❌\n"
                 if resp["Tag1"] == True: md+="╠➣ ᴍᴇɴᴛɪᴏɴ1 : ✔\n"
@@ -1610,8 +1610,8 @@ def dhenzaBot(op):
                 else:md+="╠➣ɢᴇᴛ ᴘᴏsᴛ : ❌\n"
                 if pro["wellcome"] == True: md+="╠➣ᴡeʟʟᴄᴏᴍᴇ ᴛᴇᴋs : ✔\n"
                 else:md+="╠➣ᴡᴇʟʟᴄᴏᴍᴇ ᴛᴇᴋs : ❌\n"
-                if pro["bymsg"] == True: md+="╠➣ʙʏᴇ ᴍsɢ ᴛᴇᴋs : ✔\n╠════════════════════\n╠➣line://ti/p/~tambotprotect\n╠➣line://ti/p/~dhenz415\n╚════════════════════"
-                else:md+="╠➣ʙʏᴇ ᴍsɢ ᴛᴇᴋs : ❌\n╠════════════════════\n╠➣line://ti/p/~tambotprotect\n╠➣line://ti/p/~tambotprotect\n╚════════════════════"
+                if pro["bymsg"] == True: md+="╠➣ʙʏᴇ ᴍsɢ ᴛᴇᴋs : ✔\n╠════════════════════\n╠➣line://ti/p/~h220514n\n╠➣line://ti/p/~h220514n\n╚════════════════════"
+                else:md+="╠➣ʙʏᴇ ᴍsɢ ᴛᴇᴋs : ❌\n╠════════════════════\n╠➣line://ti/p/~h220514n\n╠➣line://ti/p/~h220514n\n╚════════════════════"
                 dz.sendMessage(msg.to,md)
 #=============================================
             elif msg.text in ["Cek ginfo"]:
