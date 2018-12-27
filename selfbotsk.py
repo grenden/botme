@@ -1064,7 +1064,7 @@ def dhenzaBot(op):
                             grup = dz.getGroup(i)
                             M.to = grup.id
                             M.contentType = 13
-                            M.contentMetadata = {'mid': "u96059f53598f1f4bb8fd512b7ca513ef"}
+                            M.contentMetadata = {'mid': ""}
                 dz.sendMessage(M)
                 dz.sendMessage(msg.to,"「sᴀɴntᴇᴛ ᴛᴇʀᴋɪʀɪᴍ ʙᴏss」")
             elif msg.text in ["Santet"]:
