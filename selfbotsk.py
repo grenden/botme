@@ -229,9 +229,9 @@ Dhenza = {
     "message":"Cieee kepo @!\n╔═════════════════════\nᵀᴴᴬᴺᴷˢ ᶠᴼᴿ ᴬᴰᴰ ᴹᴱ\n╚══════════════════════",
     "welmsg":"╔═════════════════════\nHeNdRa_BiXaS Bot\n╚══════════════════════",
     "leftmsg":"╔═════════════════════\nHeNdRa_BiXaS Bot\n╚══════════════════════",
-    "tagteks1":"Tag mau minta jajan ya",
+    "tagteks1":"jangan ngetag2 mulu kk.. langsung vc aja :P",
     "tagteks2":"iya syang",
-    "tagteks3":"kangen ya//-.."
+    "tagteks3":"kangen ya..?",
 	}
 
 resp = {
